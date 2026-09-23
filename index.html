@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for John Dehree M. Lo, IT / Computer Science student and aspiring software developer."
+    />
+    <title>John Dehree | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="#home" class="brand" aria-label="Go to home section">John Dehree</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">IT / Computer Science Student</p>
+            <h1>John Dehree M. Lo</h1>
+            <h2>Software Developer</h2>
+            <p class="lead">
+              I am an IT student and aspiring software developer interested in mobile
+              application development, web development, and creating practical technology
+              solutions. I enjoy building projects that solve real-world problems and
+              continuously improving my programming and technical skills.
+            </p>
+
+            <div class="cta-group">
+              <a class="button primary" href="#projects">View Projects</a>
+              <a class="button secondary" href="assets/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+            </div>
+
+            <ul class="quick-stats" aria-label="Key focus areas">
+              <li>Mobile App Development</li>
+              <li>Web Development</li>
+              <li>Problem Solving</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Profile image section">
+            <div class="profile-card">
+              <img src="./assets/projects/profile.jpg" alt="Placeholder profile image for John Dehree M. Lo" />
+              <div class="profile-badge">Based in the Philippines</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Building practical technology solutions.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                I am a student focused on growing as a developer through hands-on
+                learning, project building, and continuous practice. My interests include
+                mobile application development, web development, and exploring different
+                ways technology can make everyday tasks easier and more efficient.
+              </p>
+              <p>
+                I enjoy turning ideas into useful digital experiences and learning from
+                each project I build. I’m particularly motivated by work that combines
+                creativity, technical skill, and real-world problem solving.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3>Focus Areas</h3>
+              <ul class="tag-list">
+                <li>Mobile Apps</li>
+                <li>Web Development</li>
+                <li>UI/UX Thinking</li>
+                <li>Problem Solving</li>
+                <li>Clean Code</li>
+                <li>Continuous Learning</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools and skills I am developing.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Programming</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Development</h3>
+              <ul>
+                <li>Responsive Design</li>
+                <li>UI Implementation</li>
+                <li>Web Interfaces</li>
+                <li>Product Thinking</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Creative &amp; Technical</h3>
+              <ul>
+                <li>Mobile App Ideas</li>
+                <li>Feature Planning</li>
+                <li>Debugging</li>
+                <li>Learning New Tools</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work and ideas.</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image">
+                <img src="assets/projects/wellnest.png" alt="WellNest project placeholder image" />
+              </div>
+              <div class="project-content">
+                <span class="project-tag">Mobile App Concept</span>
+                <h3>WellNest</h3>
+                <p>
+                  A practical concept app designed to help users build healthy routines,
+                  track habits, and stay motivated through simple, engaging features.
+                </p>
+                <a href="#contact">Discuss concept</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="assets/projects/banana-app.png" alt="Banana App project placeholder image" />
+              </div>
+              <div class="project-content">
+                <span class="project-tag">Web / App Idea</span>
+                <h3>Banana App</h3>
+                <p>
+                  A concept focused on streamlining everyday tasks with a simple interface,
+                  quicker navigation, and user-friendly functionality.
+                </p>
+                <a href="#contact">Explore idea</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Education</p>
+            <h2>Academic focus and growth.</h2>
+          </div>
+
+          <div class="education-card">
+            <div class="education-row">
+              <div>
+                <p class="education-label">Current Status</p>
+                <h3>IT / Computer Science Student</h3>
+              </div>
+              <div>
+                <p class="education-label">Location</p>
+                <p class="education-value">Philippines</p>
+              </div>
+            </div>
+
+            <p>
+              I am developing my foundation in information technology and computer science
+              while learning practical skills in software development, problem solving, and
+              digital product creation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-wrap">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something useful.</h2>
+            <p>
+              I’m open to learning opportunities, collaborations, and practical projects
+              that help me improve my skills while creating meaningful solutions.
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <ul>
+              <li>
+                <span>Location</span>
+                <strong>Philippines</strong>
+              </li>
+              <li>
+                <span>Email</span>
+                <strong>Replace with your email</strong>
+              </li>
+              <li>
+                <span>GitHub</span>
+                <strong>Replace with your GitHub URL</strong>
+              </li>
+              <li>
+                <span>LinkedIn</span>
+                <strong>Replace with your LinkedIn URL</strong>
+              </li>
+            </ul>
+            <a class="button primary" href="assets/resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 John Dehree M. Lo</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
